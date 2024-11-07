@@ -1,1 +1,31 @@
-{}
+{
+    "Insert PHP Tag": {
+        "prefix": "phpf",
+        "body": [
+            "<?php"
+        ],
+        "description": "Insert PHP opening tag"
+    },
+    "Insert PHP Variable": {
+        "prefix": "phpvar",
+        "body": [
+            "<?= ${1}; ?>"
+        ],
+        "description": "Insert PHP variable"
+    },
+    "Insert PHP Class": {
+        "prefix": "phpclass",
+        "body": [
+            "<?php",
+            "",
+            "namespace ${1:Namespace};",
+            "",
+            "class ${2:ClassName} {",
+            "    public function __construct() {",
+            "        // TODO: code",
+            "    }",
+            "}"
+        ],
+        "description": "Insert PHP class structure"
+    }
+}
