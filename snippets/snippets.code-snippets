@@ -27,5 +27,20 @@
             "}"
         ],
         "description": "Insert PHP class structure"
+    },
+    "Insert PHP Property and Methods": {
+        "prefix": "phppropstr",
+        "body": [
+            "private string $${1:NewProp};",
+            "",
+            "public function get${1:NewProp}(): string {",
+            "    return \$this->${1:NewProp};",
+            "}",
+            "",
+            "public function set${1:NewProp}(string \$${1:NewProp}): void {",
+            "    \$this->${1:NewProp} = \$${1:NewProp};",
+            "}"
+        ],
+        "description": "Insert a private string property with getter and setter methods"
     }
 }
