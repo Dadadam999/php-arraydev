@@ -1,0 +1,10 @@
+{
+    "editor.snippetSuggestions": "top",
+    "php.suggest.basic": false,
+    "files.associations": {
+        "*.php": "php"
+    },
+    "emmet.includeLanguages": {
+        "php": "html"
+    }
+}
